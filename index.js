@@ -1,4 +1,3 @@
-
 // rock paper scissors
 const toLowerCase = v => v.charAt(0).toUpperCase() + v.slice(1).toLowerCase()
 
@@ -31,3 +30,7 @@ if (answer && ['YES', 'Y'].includes(answer.toUpperCase())) {
         }
     }
 }
+
+const cars = ["cool", "heelp"]
+console.log(cars[0])
+    //define and create your array
