@@ -1,3 +1,10 @@
+const container = document.querySelector('#container');
+
+const content = document.createElement('div');
+content.classList.add('content');
+content.textContent = 'This is the glorious text-contenct!';
+container.appendChild(content);
+
 // rock paper scissors
 const toLowerCase = v => v.charAt(0).toUpperCase() + v.slice(1).toLowerCase()
 
