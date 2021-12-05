@@ -8,6 +8,26 @@
 .flex-container div {
     background: peachpuff;
     border: 4px solid brown;
-    height: 100px;
+    height: 250px;
     /* flex: 1; */
+}
+
+#first {
+    background-color: #1f2937;
+    border: 4px solid #1f2937;
+}
+
+#second {
+    background-color: white;
+    border: 4px solid white;
+}
+
+#third {
+    background-color: #E5E7E6;
+    border: 4px solid #E5E7E6;
+}
+
+#fourth {
+    background-color: white;
+    border: 4px solid white;
 }
